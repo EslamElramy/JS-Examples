@@ -1,0 +1,64 @@
+.container {
+    width: 90%;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.accordion {
+    width: 100%;
+    background-color:bisque;
+    color: blue;
+    padding: 10px;
+    border: 1px solid;
+    text-align: left;
+    cursor: pointer;
+}
+
+.accordion::after {
+    content: "+";
+    font-size: 20px;
+    float: right;
+}
+
+.pst {
+    padding: 0px 15px;
+    background-color: pink;
+    height: 0;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    width: 150px;
+    border: 1px solid black;
+    margin: 10px;
+    height: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.preview img {
+    border: 2px solid black;
+    margin: 10px;
+    width: 500px;
+    height: 300px;
+}
+
+form {
+    box-shadow: 25px 30px;
+    transition: all 0.5s ease;
+}
+
+.fan {
+    margin: 10px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.fan i{
+    font-size: 30px;
+    margin: 10px;
+}
